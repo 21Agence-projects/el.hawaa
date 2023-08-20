@@ -709,6 +709,9 @@ progress {
   .container {
     max-width: 720px;
   }
+
+
+ 
 }
 
 @media (min-width: 992px) {
@@ -2345,6 +2348,11 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+  footer .container{
+    margin-bottom: 60%;
+  }
+
 }
 
 @media (max-width: 991.98px) {
@@ -12513,12 +12521,12 @@ header.header {
 }
 
 
-.text-contact h4{
+.text-contact h4 {
   padding-top: 13px;
   font-size: 22px;
 }
 
-.text-contact p{
+.text-contact p {
   font-size: 17px;
   line-height: 1.2;
   color: #ccc;
@@ -12622,7 +12630,7 @@ header.masthead .h1 {
   font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
-  
+
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name,
@@ -12660,22 +12668,22 @@ header.masthead .h1 {
     margin: auto;
   }
 
-  .col-lg-8 h1 {
+  /* .col-lg-8 h1 {
     text-align: center;
     display: flex;
     justify-content: center;
     margin-left: -32%;
     width: 100%;
-  }
+  } */
 
   .col-lg-8 .divider {
     text-align: center;
-    margin: 10%;
   }
 
   .col-lg-8 p {
     margin-left: -32%;
     width: 100%;
+    margin-right: -28%;
   }
 
   .col-lg-8 .home-text {
@@ -12699,7 +12707,8 @@ header.masthead .h1 {
     margin: 0 0 10% 0;
   }
 
-  .page-section   .text-about  , .section-about{
+  .page-section .text-about,
+  .section-about {
     color: #00ca9d;
     line-height: 1.5;
   }
@@ -12795,33 +12804,14 @@ footer ul li a i {
 
 .card-image .card-img {}
 
-.scrollup {
-  position: fixed;
-  right: -10%;
-  bottom: 5rem;
-  background-color: #fff;
-  box-shadow: 0 4px 12px hsla(0, 0%, 20%, .1);
-  display: inline-flex;
-  padding: .35rem;
-  border-radius: .25rem;
-  z-index: 10;
-  opacity: .8;
-  transition: .4s;
 
-}
 
-.scrollup__icon {
-  font-size: 1.25rem;
-  color: hsl(355, 70%, 54%);
-}
 
 .active-link {
   color: hsl(355, 70%, 54%);
 }
 
-.scrollup:hover {
-  opacity: 1;
-}
+
 
 .show-scroll {
   right: 3rem;
