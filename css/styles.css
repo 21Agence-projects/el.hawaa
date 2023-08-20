@@ -2349,9 +2349,7 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 
-  footer .container{
-    margin-bottom: 60%;
-  }
+
 
 }
 
@@ -12701,6 +12699,7 @@ header.masthead .h1 {
 
   footer .container .row {
     text-align: center;
+    margin-bottom: 74%;
   }
 
   footer .container .row .box {
