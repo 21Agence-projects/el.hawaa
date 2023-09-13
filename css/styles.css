@@ -12820,3 +12820,26 @@ footer ul li a i {
 .show-scroll {
   right: 3rem;
 }
+
+.team_skill {
+  margin-left: 8%;
+}
+
+.team_skill .card {
+  border: none;
+}
+
+.team_skill .card img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 10px solid #eee 
+}
+
+@media screen and (max-width: 768px) {
+  .team_skill {
+    margin-left: -3%;
+  }
+}
