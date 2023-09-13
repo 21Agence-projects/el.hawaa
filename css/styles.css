@@ -711,7 +711,7 @@ progress {
   }
 
 
- 
+
 }
 
 @media (min-width: 992px) {
@@ -12375,6 +12375,7 @@ body {
 
 .page-section {
   padding: 8rem 0;
+  margin-top: -5%;
 }
 
 .text-white-75 {
@@ -12716,15 +12717,19 @@ header.masthead .h1 {
     line-height: 1.5;
   }
 
-  .page-section {
-    margin-left: 50px;
-  }
 
   .page-section img {
-    margin-left: -20px !important;
+    margin-left: -9px !important;
+    box-shadow: none !important;
   }
 }
 
+.image_img {
+  width: 30%;
+  height: 30%;
+  /* margin-bottom: 3%; */
+  border-radius: 50%;
+}
 
 .info-manager i {
   color: #00ca9d;
