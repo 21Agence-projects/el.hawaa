@@ -12829,17 +12829,38 @@ footer ul li a i {
   border: none;
 }
 
-.team_skill .card img{
+.team_skill .card img {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border: 10px solid #eee 
+  border: 10px solid #eee
 }
 
 @media screen and (max-width: 768px) {
   .team_skill {
     margin-left: -3%;
   }
+}
+
+.team_skill .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  filter: grayscale(1);
+  transition: .5s;
+}
+
+
+
+.team_skill .card p {
+  color: #828282;
+  font-size: 14px;
+}
+
+.team_skill .card img:hover {
+  filter: grayscale(0);
 }
