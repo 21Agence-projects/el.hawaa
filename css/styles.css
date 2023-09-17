@@ -11,6 +11,13 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -1492,30 +1499,7 @@ progress {
     font-size: 20px;
   }
 
-  /* 
-  services .page-section {
-    position: relative;
-  }
 
-  .page-section img{
-    margin: 0 0 0 13%;
-    box-shadow: 2rem 1rem 0 rgb(0 0 0 / 10%);
-  }
-
-  .page-section .text-about{
-    color:#00ca9d;
-    font-size: 25px!important;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-
-  .page-section .title-about{
-    color: #232323;
-    margin-bottom: 25px;
-    font-weight: 600;
-    line-height: 1.8;
-    font-size: 20px;
-  } */
   .main-title {
     text-transform: uppercase;
     margin: 0 auto 80px;
@@ -12376,6 +12360,7 @@ body {
 .page-section {
   padding: 8rem 0;
   margin-top: -5%;
+  
 }
 
 .text-white-75 {
@@ -12838,11 +12823,6 @@ footer ul li a i {
   border: 10px solid #eee
 }
 
-@media screen and (max-width: 768px) {
-  .team_skill {
-    margin-left: -3%;
-  }
-}
 
 .team_skill .card img {
   width: 100%;
